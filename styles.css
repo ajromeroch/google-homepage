@@ -1,0 +1,232 @@
+/* CSS Styles Google Homepage*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    font-size: 12px;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 8px;
+}
+
+.pts-logo {
+    width:15px;
+    height:15px;
+    opacity: 0.5;
+}
+
+.pts-logo:hover {
+    opacity: 1;
+}
+
+.A-logo {
+    position: relative;
+    top:  8px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.nav-link:hover {
+    color: gray;
+    text-decoration: underline;
+    }
+
+.principal {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    position: relative;
+    top: 9.5em;
+
+}
+
+.main-container {
+    width: 515px;
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    }
+
+#gsearch {
+    width: 100%;
+    font-size: 16px; 
+    height: 45px;
+    border: 1px solid rgb(226, 220, 220);
+    border-radius: 25px;
+    padding: 0px 55px;
+    background-image: url('search_but.png');
+    background-size: 15px 15px;
+    background-position: 22px 15px;
+    background-repeat: no-repeat;
+}
+
+#gsearch:hover {
+    box-shadow: 0px 0px 5px 1px lightgray;
+}
+
+.btn-cont {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 14px;
+    color: black;
+    padding: 0px 0px;
+    width: 170px;
+    height: 38px;
+    background-color: rgb(235, 232, 232); /*revisar el color*/
+    opacity: 0.5;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 1px 1px lightgray;
+}
+
+.und-txt {
+    height: 20px;
+    font-size: 12px;
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.oth-txt {
+    padding: 0px 8px;
+}
+
+#eng-link {
+    text-decoration: none;
+    color: blue;
+}
+
+#eng-link:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    height: 94px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    font-size: 14px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+.first-block {
+    height: 47px;
+    background-color:rgb(243, 243, 243);
+    border-top: 1px solid rgb(228, 228, 228);
+    padding:12px 20px;
+    color: rgb(122, 120, 120);
+
+}
+.second-block {
+    background-color:rgb(243, 243, 243);
+    border-top: 1px solid rgb(228, 228, 228);
+    padding:12px;
+    position: relative;
+    left: 0px;
+    display: flex;
+    
+}
+
+
+.in-second-bl {
+    position: absolute;
+    right: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(122, 120, 120);
+    padding: 0px 8px;
+ }
+
+ .footer-link:hover {
+     text-decoration: underline;
+ }
+
+/*
+nav {
+    width: 100%;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    background-color: red;
+    top: 10px;
+}
+
+.nav-link:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+.btn button{
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0;
+    border-radius: 0px;
+}
+
+footer {
+    
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    font-size: 11.5px;
+    background-color: lightgray;
+}
+
+.footer-link {
+    text-decoration: none;
+    
+}
+*/
+
+/*
+TENGO QUE ARREGLAR AL MOMENTO QUE SE ALARGA LA PANTALLA, LA COSA SE ALARGA, ESTO ERA
+V1
+    padding: 10px;
+    font-size: 11.5px;
+    display: grid;
+    grid-template-columns: 80% repeat(3, auto);
+    grid-gap: 0px;
+    justify-items: end;
+    align-items: end;
+    background: red;
+
+
+    display: grid;
+    grid-template-columns: 82% repeat(3, auto);
+    grid-gap: 5px;
+    justify-items: end;
+    align-items: center;
+*/
